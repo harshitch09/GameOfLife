@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+        <script src="shape.js"></script>
+    </head>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ::-webkit-scrollbar 
+        {  
+        width: 0px; 
+        }
+        #link
+        {
+            z-index: 5; 
+            color: #fff;  
+            font-size: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #linkbox
+        {
+            display: flexbox;
+            position: absolute;
+            right: 1%;
+            top: 5%;
+            z-index: 6;
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            background-color: white;
+            border-radius: 25px;
+            text-align: center; 
+            align-items: center;
+        }
+        #linkbox:hover
+        {
+            width: 200px;
+        }
+        #linkbox:hover #link
+        {
+            color: #000;
+        }
+
+    </style>
+    <body>
+        <div id="linkbox">
+            <a id = "link" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank"><span>What is Game of Life?</span></a>
+        </div>
+        
+    </body>
+
+</html>
