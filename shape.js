@@ -1,8 +1,8 @@
 let grid;
 let cols;
 let rows;
-let w = 20;
-let width = 1520;
+let w = 10;
+let width = 1600;
 let height = 800;
 let next;
 let sum=0;
